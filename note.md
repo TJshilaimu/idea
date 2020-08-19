@@ -86,3 +86,9 @@ module.exports = {
   }
 };
 
+
+# 录像机图标变换
+- 可利用wx:if或者v-if=‘j==1’对图片进行判断，就可利用setTnterval对j进行赋值。例如 i=1，i++，i=i%5;这些操作。
+
+# 小技巧
+- 编辑页面上的任何文本 ： 在控制台输入 document.body.contentEditable = true
