@@ -1,3 +1,4 @@
+
 [top]
 # 添加模块到npm
 - npm官网注册账号
@@ -92,3 +93,7 @@ module.exports = {
 
 # 小技巧
 - 编辑页面上的任何文本 ： 在控制台输入 document.body.contentEditable = true
+
+## mysql模糊查询
+- 在query语句中问号连接处可这么写 concat('%',?,'%');
+ 例如 var sql = "select * from blog where title like concat('%',?,'%') or content like concat('%',?,'%');"
