@@ -97,3 +97,6 @@ module.exports = {
 ## mysql模糊查询
 - 在query语句中问号连接处可这么写 concat('%',?,'%');
  例如 var sql = "select * from blog where title like concat('%',?,'%') or content like concat('%',?,'%');"
+
+ ## vue快速原型开发
+ - 安装好插件后,vue serve。注意文件内的文件名，像什么app.vue、App.vue、main.js、index.js、vue.js会各自产生干扰，注意避免。通常用app.vue就可以了。
